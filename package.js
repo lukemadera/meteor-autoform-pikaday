@@ -15,6 +15,7 @@ Package.onUse(function(api) {
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@4.0.0');
+  api.use('momentjs:moment');
   api.addFiles([
     'lukemadera:autoform-pikaday.html',
     'lukemadera:autoform-pikaday.css',
