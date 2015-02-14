@@ -8,6 +8,7 @@ https://github.com/dbushell/Pikaday
 
 - aldeed:autoform
 - Pikaday (recommended to use `bower` with `mquandalle:bower` package to install, which will auto-include the necessary `pikaday.js` and `pikaday.css` files)
+- momentjs:moment
 
 
 ## Installation
@@ -16,6 +17,7 @@ In a Meteor app directory:
 ```bash
 meteor add lukemadera:autoform-pikaday
 ```
+Add Pikaday javascript and css files, e.g.: add `"pikaday": "latest"` to your `bower.json` file.
 
 
 ## Usage
