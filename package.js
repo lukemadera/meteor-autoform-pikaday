@@ -1,10 +1,10 @@
 Package.describe({
   name: 'lukemadera:autoform-pikaday',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Pikaday date picker wrapped for autoform',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/lukemadera/meteor-autoform-pikaday',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@4.0.0');
-  api.use('momentjs:moment');
+  api.use('momentjs:moment@2.0.0');
   api.addFiles([
     'lukemadera:autoform-pikaday.html',
     'lukemadera:autoform-pikaday.css',
