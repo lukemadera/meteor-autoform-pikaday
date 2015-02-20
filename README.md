@@ -4,6 +4,13 @@ An add-on Meteor package for aldeed:autoform. Provides a single custom input typ
 https://github.com/dbushell/Pikaday
 
 
+## Demo
+
+[Demo](http://lukemadera-packages.meteor.com/af-pikaday-basic)
+
+[Source](https://github.com/lukemadera/meteor-packages/tree/master/autoform-pikaday/basic)
+
+
 ## Dependencies
 
 - aldeed:autoform
