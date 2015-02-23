@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lukemadera:autoform-pikaday',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Pikaday date picker wrapped for autoform',
   // URL to the Git repository containing the source code for this package.
@@ -17,14 +17,14 @@ Package.onUse(function(api) {
   api.use('aldeed:autoform@4.0.0');
   api.use('momentjs:moment@2.0.0');
   api.addFiles([
-    'lukemadera:autoform-pikaday.html',
-    'lukemadera:autoform-pikaday.css',
-    'lukemadera:autoform-pikaday.js'
+    'lukemadera_autoform-pikaday.html',
+    'lukemadera_autoform-pikaday.css',
+    'lukemadera_autoform-pikaday.js'
   ], 'client');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('lukemadera:autoform-pikaday');
-  api.addFiles('lukemadera:autoform-pikaday-tests.js');
+  api.addFiles('lukemadera_autoform-pikaday-tests.js');
 });
