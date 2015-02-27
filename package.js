@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lukemadera:autoform-pikaday',
-  version: '0.0.4',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'Pikaday date time picker wrapped for autoform',
   // URL to the Git repository containing the source code for this package.
