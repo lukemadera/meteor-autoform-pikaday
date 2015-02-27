@@ -37,9 +37,9 @@ Template.afPikaday.helpers({
 Template.afPikaday.rendered =function() {
   var ele =this.find('input');
   var optsDefault ={
-    formatValue: 'YYYY-MM-DD',
+    formatValue: 'YYYY-MM-DD HH:mm:ssZ',
     pikaday: {
-      format: 'YYYY-MM-DD',
+      format: 'YYYY-MM-DD h:mmA',
       reposition: false
     }
   };
