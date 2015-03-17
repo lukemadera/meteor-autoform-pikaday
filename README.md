@@ -24,7 +24,7 @@ In a Meteor app directory:
 ```bash
 meteor add lukemadera:autoform-pikaday
 ```
-Add Pikaday javascript and css files, e.g.: add `"pikaday": "latest"` to your `bower.json` file.
+Add Pikaday javascript and css files, e.g.: add `"pikaday-time": "latest"` to your `bower.json` file.
 
 
 ## Usage
